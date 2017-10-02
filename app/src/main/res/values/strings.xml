@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="action_settings">Settings</string>
+    <string name="save">Save</string>
+    <string name="title">Title</string>
+    <string name="clear_all">Clear all</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="reload">Reload</string>
+    <string name="text">Text</string>
+    <string name="change_notify_time">Change notify time</string>
+    <string name="date">Date</string>
+    <string name="removed">Note removed</string>
+    <string name="savenote">Save this note?</string>
+    <string name="sort">Sort</string>
+</resources>

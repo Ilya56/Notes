@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/color">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="@dimen/text_top">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/title"
+                android:id="@+id/title"
+                android:layout_marginStart="@dimen/text_left"
+                android:layout_marginLeft="@dimen/text_left"
+                android:textColor="@color/title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Text"
+                android:id="@+id/text"
+                android:layout_marginStart="@dimen/text_left"
+                android:layout_marginLeft="@dimen/text_left"
+                android:textColor="@color/black"/>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Date notif"
+                android:id="@+id/date_n"
+                android:layout_gravity="end"
+                android:textColor="@color/title"
+                android:layout_marginEnd="@dimen/text_right"
+                android:layout_marginRight="@dimen/text_right"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Date"
+                android:id="@+id/date"
+                android:layout_gravity="end"
+                android:layout_marginEnd="@dimen/text_right"
+                android:layout_marginRight="@dimen/text_right"/>
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>
